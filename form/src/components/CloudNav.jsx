@@ -1,15 +1,7 @@
-import { useState } from "react"
-
 const CloudNav = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
-  };
-
 	return (
 		<>
-		<nav className="w-full h-12 bg-black flex justify-between items-center ">
+		<nav className="w-full bg-black flex justify-between items-center ">
 			<div className="text-4xl text-blue-600 font-semibold bg-white px-2 shadow-sm rounded-lg ml-4  ">cloudFusion</div>
 			<div>
 				<ul className="md:flex hidden text-white space-x-5 items-center ">

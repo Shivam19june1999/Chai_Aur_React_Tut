@@ -3,7 +3,7 @@ const webpage = () => {
 		<>
 			<div className="bg-slate-900">
 				{/* navbar starts here */}
-				<nav className="w-full h-14 bg-indigo-200 flex justify-between  items-center md:px-4 ">
+				<nav className="w-full h-14 bg-indigo-200 flex justify-between  md:px-4 ">
 					<div className="text-2xl text-indigo-700 font-bold">PW Skills</div>
 					<ul className="md:flex hidden font-semibold" >
 						<li className="mx-2 cursor-pointer">Home</li>
